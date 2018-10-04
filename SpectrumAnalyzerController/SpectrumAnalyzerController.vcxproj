@@ -75,7 +75,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Program Files %28x86%29\IVI Foundation\VISA\WinNT\Include;$(IncludePath)</IncludePath>
+    <IncludePath>E:\VisualStudio\GitHub\C++\SpectrumAnalyzerController\SpectrumAnalyzerController\Reference\AV4024;D:\Program Files %28x86%29\IVI Foundation\VISA\WinNT\Include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\Program Files %28x86%29\IVI Foundation\VISA\WinNT\lib\msc;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -93,11 +93,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\VisualStudio\GitHub\C++\SpectrumAnalyzerController\SpectrumAnalyzerController\Reference\AV4024;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\VisualStudio\GitHub\C++\SpectrumAnalyzerController\SpectrumAnalyzerController\Reference\AV4024;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>ivi.lib;visa32.lib;av4024.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\Program Files %28x86%29\IVI Foundation\VISA\WinNT\lib\msc;F:\VisualStudio\GitHub\C++\SpectrumAnalyzerController\SpectrumAnalyzerController\Reference\AV4024;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:\VisualStudio\GitHub\C++\SpectrumAnalyzerController\SpectrumAnalyzerController\Reference\AV4024;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
